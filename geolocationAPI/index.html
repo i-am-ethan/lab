@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeolocationAPI</title>
+  <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -15,9 +16,22 @@
     </a>
   </header>
   <main>
-    <h2>GeolocationAPI</h2>
-
+    <section class="geolocationapi">
+      <h2>GeolocationAPI</h2>
+      <p>APIで現在位置を取得する</p>
+      <div class="geolocationapi_inner">
+        <button id="get-geo">GET</button>
+        <ul class="geolocationapi_inner_ul">
+          <li>
+            <p>現在地:
+              <span id="latitudeEl"></span>
+              <span id="longitudeEl"></span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
-  
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

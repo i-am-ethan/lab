@@ -1,0 +1,21 @@
+.geolocationapi{
+  width: calc(100% - 16px);
+  margin: 0 auto;
+  .geolocationapi_inner{
+    margin: 24px auto 0 auto;
+    button{
+      width:  160px;
+      padding: 8px;
+      margin: 16px 0px;
+      cursor: pointer;
+    }
+    ul{
+      border: 1px solid black;
+      padding: 8px;
+      li{
+        list-style: none;
+
+      }
+    }
+  }
+}
