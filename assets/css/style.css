@@ -38,6 +38,27 @@ header a {
   margin: 4px 0px 24px 16px;
 }
 
+.geolocationapi {
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+.geolocationapi .geolocationapi_inner {
+  margin: 24px auto 0 auto;
+}
+.geolocationapi .geolocationapi_inner button {
+  width: 160px;
+  padding: 8px;
+  margin: 16px 0px;
+  cursor: pointer;
+}
+.geolocationapi .geolocationapi_inner ul {
+  border: 1px solid black;
+  padding: 8px;
+}
+.geolocationapi .geolocationapi_inner ul li {
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;

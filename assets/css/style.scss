@@ -1,6 +1,12 @@
+// 共通
 @use "./components/header";
-
+// top
 @use "./components/articles";
+
+// components
+@use "./components/geolocationapi";
+
+
 
 
 $text-color: #555555;
