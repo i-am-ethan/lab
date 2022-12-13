@@ -24,7 +24,12 @@ CSS:
 
 (1)Inline Styles
 (2)CSS Modules
+cssまたはscssを外部ファイルで記述していく
 ```
 npm install sass
 ```
-
+(3)Styled JSX
+Next.jsに標準で組み込まれているライブラリ
+```
+npm install styled-jsx
+```
