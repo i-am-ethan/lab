@@ -1,8 +1,14 @@
+import { useEffect } from "react"
 import { useState } from "react"
 import {ColorMessage} from "./components/ColorMessage"
 
 export const App = ()=>{
+
   const [num, setNum] = useState(0)
+
+  useEffect(()=>{
+    console.log("numが変更されました")
+  }, [num])
 
   const onClickButton = () => {
     setNum(num+1)
