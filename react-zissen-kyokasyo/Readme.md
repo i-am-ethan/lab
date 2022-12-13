@@ -13,3 +13,10 @@ state(UseState):
 
 現在主流となっている関数コンポーネントではReact Hooksと総称される機能群の中のuseStateという関数を用いてStateを扱っていく。
 
+
+UseEffect:
+useEffectはコンポーネントの副作用を制御する機能です。
+useStateと同様にReactからimportします。
+useEffectの役割は「ある値が変わった時に限り、ある処理を実行する」機能になります。
+
+
