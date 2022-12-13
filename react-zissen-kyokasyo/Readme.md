@@ -20,3 +20,11 @@ useStateと同様にReactからimportします。
 useEffectの役割は「ある値が変わった時に限り、ある処理を実行する」機能になります。
 
 
+CSS:
+
+(1)Inline Styles
+(2)CSS Modules
+```
+npm install sass
+```
+
