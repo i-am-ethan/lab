@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import {ColorMessage} from "./components/ColorMessage"
+import { CssModules } from "./components/CssModules"
 
 export const App = ()=>{
 
@@ -21,6 +22,8 @@ export const App = ()=>{
     <ColorMessage color="pink">元気です！</ColorMessage>
     <button onClick={onClickButton}>ボタン</button>
     <p>{num}</p>
+
+    <CssModules></CssModules>
   </>
   )
 }
