@@ -33,3 +33,7 @@ Next.jsに標準で組み込まれているライブラリ
 ```
 npm install styled-jsx
 ```
+(4)styled components
+```
+npm install styled-components 
+```
