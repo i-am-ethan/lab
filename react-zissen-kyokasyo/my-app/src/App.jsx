@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import {ColorMessage} from "./components/ColorMessage"
 import { CssModules } from "./components/CssModules"
+import { StyledJsx } from "./components/StyledJsx"
 
 export const App = ()=>{
 
@@ -24,6 +25,8 @@ export const App = ()=>{
     <p>{num}</p>
 
     <CssModules></CssModules>
+
+    <StyledJsx></StyledJsx>
   </>
   )
 }
