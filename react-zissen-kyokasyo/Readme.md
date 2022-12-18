@@ -41,3 +41,8 @@ npm install styled-components
 ```
 npm install @emotion/react @emotion/styled
 ```
+(6)Tailwind CSS
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
