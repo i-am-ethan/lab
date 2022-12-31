@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { ColorMessage } from "./components/ColorMessage";
+import {Child1} from "./components/Child1";
+import {Child4} from "./components/Child4";
 
 export const App = () => {
+  console.log('Appレンダリング')
   const [num, setNum] = useState(0);
 
   const onClickButton = () => {
@@ -10,10 +12,10 @@ export const App = () => {
   return (
     <>
     <h1 style={{color:"red"}}>こんにちは！</h1>
-    <ColorMessage color="blue">お元気ですか？</ColorMessage>
-    <ColorMessage color="pink">元気です！</ColorMessage>
     <button onClick={onClickButton}>ボタン</button>
     <p>{num}</p>
+    <Child1 />
+    <Child4 />
     </>
   )
 }
