@@ -5,3 +5,10 @@ https://github.com/klemiwary/Riakuto-StartingReact-ja4.0
 
 正誤表・更新情報:
 https://github.com/klemiwary/Riakuto-StartingReact-ja4.0/blob/main/errata.md
+
+
+asdf:
+バージョン管理ツール
+https://asdf-vm.com/
+
+
