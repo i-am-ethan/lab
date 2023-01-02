@@ -33,12 +33,13 @@ $text-color: #555555;
         h3{
           color: $text-color;
           text-decoration: none;
-          margin: 8px 0px 4px 16px;
+          margin: 8px 16px 4px 16px;
         }
         p{
           color: $text-color;
           text-decoration: none;
-          margin: 4px 0px 24px 16px;
+          margin: 4px 16px 16px 16px;
+          line-height: 1.4;
         }
       }
     }
