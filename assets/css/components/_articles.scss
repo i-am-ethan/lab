@@ -4,31 +4,49 @@ $text-color: #555555;
   background-color: rgb(255, 255, 255);
   width: calc(100% - 32px);
   margin: 0 auto;
-  article{
-    cursor: pointer;
-    margin-top: 16px;
-    width: 240px;
+  .articles_wrapper{
     display: flex;
-    flex-direction: column;
-    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.08);
-    border-radius: 10px;
-    a{
-      text-decoration: none;
-      img{
-        border-radius: 10px 10px  0px 0px;
-        width:100%;
-        margin:8px auto 0px auto;
-      }
-      h3{
-        color: $text-color;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    article{
+      cursor: pointer;
+      margin-top: 16px;
+      margin-right: 16px;
+      width: 240px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform .6s ease;
+      a{
+        overflow: hidden;
         text-decoration: none;
-        margin: 8px 0px 4px 16px;
+        border-radius: 10px;
+        img{
+          border-radius: 10px 10px  0px 0px;
+          width:100%;
+          margin:0px auto 0px auto;
+          transition: transform .6s ease;
+          object-fit: cover;
+        }
+        h3{
+          color: $text-color;
+          text-decoration: none;
+          margin: 8px 0px 4px 16px;
+        }
+        p{
+          color: $text-color;
+          text-decoration: none;
+          margin: 4px 0px 24px 16px;
+        }
       }
-      p{
-        color: $text-color;
-        text-decoration: none;
-        margin: 4px 0px 24px 16px;
-      }
+    }
+    article:hover img{
+      transform: scale(1.04);
+    }
+    article:hover{
+      transform: translate(5px,5px);
     }
   }
 }

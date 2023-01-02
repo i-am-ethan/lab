@@ -10,32 +10,51 @@ header a {
   width: calc(100% - 32px);
   margin: 0 auto;
 }
-.articles article {
+.articles .articles_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.articles .articles_wrapper article {
   cursor: pointer;
   margin-top: 16px;
+  margin-right: 16px;
   width: 240px;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.6s ease;
 }
-.articles article a {
+.articles .articles_wrapper article a {
+  overflow: hidden;
   text-decoration: none;
+  border-radius: 10px;
 }
-.articles article a img {
+.articles .articles_wrapper article a img {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
-  margin: 8px auto 0px auto;
+  margin: 0px auto 0px auto;
+  transition: transform 0.6s ease;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.articles article a h3 {
+.articles .articles_wrapper article a h3 {
   color: #555555;
   text-decoration: none;
   margin: 8px 0px 4px 16px;
 }
-.articles article a p {
+.articles .articles_wrapper article a p {
   color: #555555;
   text-decoration: none;
   margin: 4px 0px 24px 16px;
+}
+.articles .articles_wrapper article:hover img {
+  transform: scale(1.04);
+}
+.articles .articles_wrapper article:hover {
+  transform: translate(5px, 5px);
 }
 
 .geolocationapi {
