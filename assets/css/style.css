@@ -51,6 +51,8 @@ header a {
   color: #555555;
   text-decoration: none;
   margin: 8px 16px 4px 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
 }
 .articles .articles_wrapper article a .article_container p {
   color: #555555;
@@ -92,15 +94,19 @@ header a {
   color: #555555;
 }
 
+main {
+  padding-bottom: 80px;
+}
+
 h2 {
   font-size: 24px;
   margin-top: 16px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
