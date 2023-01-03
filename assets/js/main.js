@@ -1,7 +1,6 @@
-console.log('main.js')
+import {createArticleEle} from "./components/createArticle.js"
 
-// get html elements
-const articleWrapper = document.querySelector('.articles_wrapper')
+console.log('main.js')
 
 
 // get json file
@@ -13,14 +12,4 @@ fetch('../assets/json/articles.json')
   console.log(json)
 })
 
-
-
-
-const  createArticleEle = () => {
-  const articleTag = document.createElement('article')
-  const aTag = document.createElement('a')
-  const thumbnail = document.createElement('img')
-  const articleContainer = document.createElement('div')
-  const articleTitle = document.createElement('h3')
-  const articleTxt = document.createElement('p')
-}
+createArticleEle()
