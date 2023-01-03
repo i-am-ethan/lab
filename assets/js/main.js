@@ -12,4 +12,15 @@ fetch('../assets/json/articles.json')
   console.log(json)
 })
 
-createArticleEle()
+createArticleEle(
+  "./20221028_webgl-img-slider/index.html",
+  "./assets/img/thumbnail/webgl-image-transition.jpg",
+  "WebGL Image Transition",
+  "WebGLを用いた画像切り替え",
+)
+createArticleEle(
+  "./20221028_webgl-img-slider/index.html",
+  "./assets/img/thumbnail/webgl-image-transition.jpg",
+  "WebGL Image Transition",
+  "WebGLを用いた画像切り替え",
+)

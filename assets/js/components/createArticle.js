@@ -1,4 +1,5 @@
-export const  createArticleEle = () => {
+export const  createArticleEle = (href, src, title_alt, desc) => {
+
   // get html elements
   const articleWrapper = document.querySelector('.articles_wrapper')
 
@@ -8,19 +9,19 @@ export const  createArticleEle = () => {
   const thumbnail = document.createElement('img')
   const articleContainer = document.createElement('div')
   const articleTitle = document.createElement('h3')
-  const articleTxt = document.createElement('p')
+  const articleDescription = document.createElement('p')
 
   // set attribute
-  aTag.setAttribute('href', './20221028_webgl-img-slider/index.html')
-  thumbnail.setAttribute('src', './assets/img/thumbnail/webgl-image-transition.jpg')
-  thumbnail.setAttribute('alt', 'WebGL Image Transition')
+  aTag.setAttribute('href', href)
+  thumbnail.setAttribute('src', src)
+  thumbnail.setAttribute('alt', title_alt)
   articleContainer.classList.add('article_container')
-  articleTitle.textContent = "WebGL Image Transition"
-  articleTxt.textContent = "WebGLを用いた画像切り替え"
+  articleTitle.textContent = title_alt
+  articleDescription.textContent = desc
 
   // append
   articleContainer.appendChild(articleTitle)
-  articleContainer.appendChild(articleTxt)
+  articleContainer.appendChild(articleDescription)
   aTag.appendChild(thumbnail)
   aTag.appendChild(articleContainer)
   articleTag.appendChild(aTag)
