@@ -12,10 +12,14 @@ import { Header } from '../components/header'
 
 const { useState } = React
 
-const StorageKey = 'pages/editor:text'//キー名を決める
+// const StorageKey = 'pages/editor:text'//キー名を決める
+interface Props {
+  text: string
+  setText: (text: string) => void
+}
 
-export const Editor: React.FC  = () => {
-  const [text, setText] =useStateWithStorage("", StorageKey)
+export const Editor: React.FC<Props> = (props) => {
+  const { text, setText } = props
   const [showModal, setShowModal] = useState(false)
 
 

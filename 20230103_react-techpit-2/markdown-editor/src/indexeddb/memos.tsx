@@ -15,3 +15,8 @@ export const putMemo = async (title: string, text: string): Promise<void> => {
   await memos.put({ datetime, title, text })
 }
 
+export const getMemos = (): Promise<MemoRecord[]> => {
+  return memos.orderBy('datetime')
+              .reverse()
+              .toArray()
+}
