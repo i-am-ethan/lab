@@ -3,12 +3,42 @@
     "title_alt":"WebGL Image Slider",
     "desc":"WebGLを用いた画像切り替え",
     "href":"./20221028_webgl-img-slider/index.html",
-    "src":"./assets/img/thumbnail/webgl-image-transition.jpg"
+    "src":"./assets/img/thumbnail/20221028_webgl-img-slider.jpg"
   },
   {
     "title_alt":"Geolocation API",
     "desc":"GeolocationAPIで位置情報を取得する",
     "href":"./20221209_geolocationAPI/index.html",
-    "src":"./assets/img/thumbnail/geolocation-api.jpg"
+    "src":"./assets/img/thumbnail/20221209_geolocationAPI.jpg"
+  },
+  {
+    "title_alt":"React公式チュートリアル さんもくならべ",
+    "desc":"React公式チュートリアルさんもくならべを実装したみた",
+    "href":"./20221211_react-tutorial/my-app/build/index.html",
+    "src":"./assets/img/thumbnail/20221211_react-tutorial.jpg"
+  },
+  {
+    "title_alt":"GIFの実装テスト",
+    "desc":"GIFの実装テスト",
+    "href":"./20221218_html-gif/index.html",
+    "src":"./assets/img//thumbnail/20221218_html-gif.jpg"
+  },
+  {
+    "title_alt":"Hack for iOS Safari to display the HTML video thumbnail",
+    "desc":"ios safariでvideoタグを挿入したときにサムネイルが見えない問題の解決",
+    "href":"./20221220_video-hack-t001/index.html",
+    "src":"./assets/img/thumbnail/20221220_video-hack-t001.jpg"
+  },
+  {
+    "title_alt":"APNGの実装デモ",
+    "desc":"APNGの実装を試してみる",
+    "href":"./20221222_apng/index.html",
+    "src":"./assets/img/thumbnail/20221222_apng.jpg"
+  },
+  {
+    "title_alt":"React+TS+Webpack",
+    "desc":"React+TS+Webpackでテキストエディターを作る",
+    "href":"./20230103_react-techpit-2/markdown-editor/index.html",
+    "src":"./assets/img/thumbnail/20230103_react-techpit-2.jpg"
   }
 ]
