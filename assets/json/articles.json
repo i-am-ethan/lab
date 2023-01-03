@@ -1,14 +1,14 @@
 [
   {
     "title_alt":"WebGL Image Slider",
-    "description":"WebGLを用いた画像切り替え",
+    "desc":"WebGLを用いた画像切り替え",
     "href":"./20221028_webgl-img-slider/index.html",
-    "imgsrc":"./assets/img/thumbnail/webgl-image-transition.jpg"
+    "src":"./assets/img/thumbnail/webgl-image-transition.jpg"
   },
   {
     "title_alt":"Geolocation API",
-    "description":"GeolocationAPIで位置情報を取得する",
+    "desc":"GeolocationAPIで位置情報を取得する",
     "href":"./20221209_geolocationAPI/index.html",
-    "imgsrc":"./assets/img/thumbnail/geolocation-api.jpg"
+    "src":"./assets/img/thumbnail/geolocation-api.jpg"
   }
 ]
