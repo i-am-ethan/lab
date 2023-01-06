@@ -2,6 +2,7 @@ import {createArticleEle} from "./components/createArticle.js"
 
 // get json file
 fetch('/lab/assets/json/articles.json')
+// local: fetch('../assets/json/articles.json')
 .then((res)=>{
   console.log(res)
   return res.json()
