@@ -36,6 +36,12 @@
     "src":"./assets/img/thumbnail/20221222_apng.jpg"
   },
   {
+    "title_alt":"React実践の教科書-メモアプリ実装",
+    "desc":"React実践の教科書のメモアプリを実装したやつ",
+    "href":"./20221231_react-zissen-kyokasyo/memo-app/build/index.html",
+    "src":"./assets/img/thumbnail/20221231_react-zissen-kyokasyo.jpg"
+  },
+  {
     "title_alt":"React+TS+Webpack",
     "desc":"React+TS+Webpackでテキストエディターを作る",
     "href":"./20230103_react-techpit-2/markdown-editor/index.html",
