@@ -16,6 +16,8 @@ export const  createArticleEle = (href, src, title_alt, desc) => {
   aTag.setAttribute('target', "_blank")
   thumbnail.setAttribute('src', src)
   thumbnail.setAttribute('alt', title_alt)
+  thumbnail.style.width = "240px"
+  thumbnail.style.height = "135px"
   articleContainer.classList.add('article_container')
   articleTitle.textContent = title_alt
   articleDescription.textContent = desc
