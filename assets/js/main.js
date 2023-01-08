@@ -1,4 +1,4 @@
-import {createArticleEle} from "./components/createArticle.js"
+import {createArticleEle} from "./components/createArticle.min.js"
 
 // get json file
 fetch('/lab/assets/json/articles.json')
