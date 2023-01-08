@@ -1,0 +1,2 @@
+独習JavaScriptの理解度チェックとか練習問題とかのメモ
+https://www.amazon.co.jp/%E7%8B%AC%E7%BF%92JavaScript-%E6%96%B0%E7%89%88-CodeMafia-%E5%A4%96%E6%9D%91-%E5%B0%86%E5%A4%A7/dp/479816027X/ref=asc_df_479816027X/?tag=jpgo-22&linkCode=df0&hvadid=529609892108&hvpos=&hvnetw=g&hvrand=15725925548538049477&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009308&hvtargid=pla-1435965122071&psc=1&th=1&psc=1

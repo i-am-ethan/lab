@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li{font-weight: bold;}
+  </style>
+</head>
+<body>
+  <h1>チャプター2</h1>
+  <h2>理解度チェック</h2>
+  <ol>
+    <li>次の空欄を埋めて、文章を完成させてください</li>
+    <p>
+      JavaScriptのコード内のアルファベットは{①大文字小文字}が区別されるため、letなどのキーワードを使用する際や
+      変数名を付ける際には注意が必要です。
+      また、プログラム中のアルファベットや数値は基本的に{②半角文字}を使用して記述します。
+      文と文の区切りには{③セミコロン}を挿入するようにしましょう。
+      また、コメントを挿入する際はダブルスラッシュ(//)を使用するか、コメントしたい区間を{④/**/}で囲みます。
+    </p>
+    <li>次のコードをHTMLファイルで保存して、開発ツールのコンソール上に表示される値を答えてください</li>
+    <pre>
+      <code>
+        let val1 = 789;
+        let val2 = 3;
+        let val3 = 789 % 3;
+        console.log(val1/val2);
+      </code>
+    </pre>
+    <p>263</p>
+    <li>
+      [2]のコードを次のように変更したところ、エラー(ReferenceError)が発生しました。
+      エラーが発生した理由を答えてください
+    </li>
+    <pre>
+      <code>
+        let val1 = 789;
+        let val2 = 3;
+        let val3 = 789 % 3;
+        console.log(val1/Val3);
+      </code>
+    </pre>
+    <p>console.log()のVal3が大文字なため</p>
+    <li>[2]のコードの4行目(let val3 = 789%3;)にブレークポイントを設置して、
+      コードを一時停止しました。
+      この時、コンソールでval3を入力して値を確認しようとしましたが、エラー(ReferenceError)が
+      発生してしまいました。その理由を答えてください。
+    </li>
+    <p>ブレイクポイントで止まった行はまだ実行されていない状況のため。</p>
+    <li>[2]のコードのval3の値を、開発ツールを使って確認してください</li>
+    <p>0</p>
+  </ol>
+  <script>
+      let val1 = 789;
+      let val2 = 3;
+      let val3 = 789 % 3;
+      console.log(val1/val2)
+  </script>
+</body>
+</html>

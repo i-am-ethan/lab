@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li{font-weight: bold;}
+  </style>
+</head>
+<body>
+  <h1>チャプター3</h1>
+  <h2>練習問題 3.1</h2>
+  <ol>
+    <li>letとconstの違いについて答えてください</li>
+    <p>let は値の再代入が可能ですが、const は値の再代入を行うことはできません。</p>
+    <li>次のコードを実行すると、エラーが発生しました。
+      エラーは何行目で発生しますか。また、その原因はなんでしょうか
+    </li>
+    <pre>
+      <code>
+        const fruit = "apple";
+        fruit = "banana";
+        console.log(fruit)
+      </code>
+    </pre>
+    <p>エラーは2行目(fruit = "banana";)で発生します。constを使っているので、値の再代入ができない ため、エラーが発生します。</p>
+    <h2>練習問題 3.2</h2>
+    <li>次のコードを、キャメルケースで使って書き換えてください</li>
+    <pre>
+      <code>
+        let product_price = 1000;
+        let cart_item = "りんご";
+        let favorite_sport_category = "球技";
+      </code>
+    </pre>
+    <p>書き換え後(キャメルケース)↓</p>
+    <pre>
+      <code>
+        let productPrice = 1000;
+        let cartItem = "りんご";
+        let favoriteSportCategory = "球技";
+      </code>
+    </pre>
+  </ol>
+  <h2>練習問題 3.3</h2>
+  <ol>
+    <li>「This is Tom's house.」という文字列を、エスケープを使う場合、使わない場合の2パターンで記述して、コンソールに値を出力してください</li>
+    <pre>
+      <code>
+        let str = 'This is Tom\'s house'
+        console.log(str)
+
+        let str2 = "This is Tom's house"
+        console.log(str2)
+      </code>
+    </pre>
+  </ol>
+  <h2>練習問題 3.4</h2>
+  <ol>
+    <li>次の計算結果をそれぞれコンソールに出力してみましょう</li>
+    <p>5+6-1:10</p>
+    <p>①の結果に2を掛け合わせた値:20</p>
+    <p>②の結果の3の剰余:2</p>
+    <p>③の結果の3乗:8</p>
+  </ol>
+  <h2>練習問題 3.5</h2>
+</body>
+</html>
