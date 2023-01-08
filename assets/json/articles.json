@@ -46,5 +46,11 @@
     "desc":"React+TS+Webpackでテキストエディターを作る",
     "href":"./20230103_react-techpit-2/markdown-editor/index.html",
     "src":"./assets/img/thumbnail/20230103_react-techpit-2.jpg"
+  },
+  {
+    "title_alt":"TypeScriptでストップウォッチを作る",
+    "desc":"TypeScriptでストップウォッチを作ってみた",
+    "href":"./20230108_typescript-zukai-book/stop-watch/index.html",
+    "src":"./assets/img/thumbnail/20230108_typescript-zukai-book.jpg"
   }
 ]
