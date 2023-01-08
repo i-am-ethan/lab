@@ -3,54 +3,54 @@
     "title_alt":"WebGL Image Slider",
     "desc":"WebGLを用いた画像切り替え",
     "href":"./20221028_webgl-img-slider/index.html",
-    "src":"./assets/img/thumbnail/20221028_webgl-img-slider.jpg"
+    "src":"./assets/img/thumbnail/20221028_webgl-img-slider.avif"
   },
   {
     "title_alt":"Geolocation API",
     "desc":"GeolocationAPIで位置情報を取得する",
     "href":"./20221209_geolocationAPI/index.html",
-    "src":"./assets/img/thumbnail/20221209_geolocationAPI.jpg"
+    "src":"./assets/img/thumbnail/20221209_geolocationAPI.avif"
   },
   {
     "title_alt":"React公式チュートリアル さんもくならべ",
     "desc":"React公式チュートリアルさんもくならべを実装したみた",
     "href":"./20221211_react-tutorial/my-app/build/index.html",
-    "src":"./assets/img/thumbnail/20221211_react-tutorial.jpg"
+    "src":"./assets/img/thumbnail/20221211_react-tutorial.avif"
   },
   {
     "title_alt":"GIFの実装テスト",
     "desc":"GIFの実装テスト",
     "href":"./20221218_html-gif/index.html",
-    "src":"./assets/img//thumbnail/20221218_html-gif.jpg"
+    "src":"./assets/img//thumbnail/20221218_html-gif.avif"
   },
   {
     "title_alt":"Hack for iOS Safari to display the HTML video thumbnail",
     "desc":"ios safariでvideoタグを挿入したときにサムネイルが見えない問題の解決",
     "href":"./20221220_video-hack-t001/index.html",
-    "src":"./assets/img/thumbnail/20221220_video-hack-t001.jpg"
+    "src":"./assets/img/thumbnail/20221220_video-hack-t001.avif"
   },
   {
     "title_alt":"APNGの実装デモ",
     "desc":"APNGの実装を試してみる",
     "href":"./20221222_apng/index.html",
-    "src":"./assets/img/thumbnail/20221222_apng.jpg"
+    "src":"./assets/img/thumbnail/20221222_apng.avif"
   },
   {
     "title_alt":"React実践の教科書-メモアプリ実装",
     "desc":"React実践の教科書のメモアプリを実装したやつ",
     "href":"./20221231_react-zissen-kyokasyo/memo-app/build/index.html",
-    "src":"./assets/img/thumbnail/20221231_react-zissen-kyokasyo.jpg"
+    "src":"./assets/img/thumbnail/20221231_react-zissen-kyokasyo.avif"
   },
   {
     "title_alt":"React+TS+Webpack",
     "desc":"React+TS+Webpackでテキストエディターを作る",
     "href":"./20230103_react-techpit-2/markdown-editor/index.html",
-    "src":"./assets/img/thumbnail/20230103_react-techpit-2.jpg"
+    "src":"./assets/img/thumbnail/20230103_react-techpit-2.avif"
   },
   {
     "title_alt":"TypeScriptでストップウォッチを作る",
     "desc":"TypeScriptでストップウォッチを作ってみた",
     "href":"./20230108_typescript-zukai-book/stop-watch/index.html",
-    "src":"./assets/img/thumbnail/20230108_typescript-zukai-book.jpg"
+    "src":"./assets/img/thumbnail/20230108_typescript-zukai-book.avif"
   }
 ]
